@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- link favicon -->
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Intro component with single signup form</title>
+
+    <!-- fontAwesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="left-container">
+        <h1 class="title">Learn to code by watching others</h1>
+        <p class="para">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div class="right-container">
+        <div class="price-card-container">
+          <p class="sub-para">
+            <strong>Try it free 7 days </strong>then $20/mo. thereafter
+          </p>
+        </div>
+        <div class="input-box-container">
+          <div class="input-container">
+            <input
+              type="text"
+              class="first-name"
+              id="firstname"
+              placeholder="Firstname"
+            />
+            <p class="error-msg hidden">Firstname can't be empty</p>
+          </div>
+          <div class="input-container">
+            <input
+              type="text"
+              class="first-name"
+              id="lastname"
+              placeholder="lastname"
+            />
+            <p class="error-msg hidden">Secondname can't be empty</p>
+          </div>
+
+          <div class="input-container">
+            <input
+              type="email"
+              class="first-name"
+              id="email"
+              placeholder="Ex-abc@gmail.com"
+            />
+            <p class="error-msg hidden">enter valid email</p>
+          </div>
+          <div class="input-container">
+            <input
+              type="text"
+              class="first-name"
+              id="password"
+              placeholder="password"
+            />
+            <p class="error-msg hidden">password can't be empty</p>
+          </div>
+          <div class="button-container">
+            <button class="btn-submit" id="btn-submit">
+              Claim your free trial
+            </button>
+            <p class="bottom-para">
+              By clicking the button, you are agreeing to our
+              <strong>Terms and Services</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- custom script -->
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
